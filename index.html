@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="custom/scss">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Play|Source+Code+Pro" rel="stylesheet">
+    <title>Crypto 00</title>
+    <style>
+      .button-background {
+        background-color: rgba(237, 243, 255, 0.08); 
+        border-color: transparent;
+        border: 200px;
+        padding: 20px;
+        border-radius: 0;
+        box-shadow: 6px 6px 5px 0px rgba(0, 14, 41, 0.4);
+        /* HOVER OFF */
+        -webkit-transition: box-shadow 1s, border-radius 1s, background-color 1s;
+      }
+      .button-background:hover{
+        background-color: transparent;
+        border-color: rgba(237, 243, 255, 0.85);
+        border: 10px;
+        padding: 20px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 70px 17px rgba(237, 243, 255, 0.15);
+        /* HOVER ON */
+        -webkit-transition: box-shadow 1s, border-radius .5s, background-color 1s;
+      }
+      .crypto-image {
+        background-color: transparent;
+      }
+      .cont {
+        top: 2rem;
+        margin-bottom: .5rem;
+        margin-top: -3rem;
+        position: relative;
+      }
+      .btn {
+        width: 100%;
+      }
+/*      @font-face {
+        font-family: atomic-clock;
+        src: url('../fonts/atomicclockradio.ttf');
+      }*/
+
+      * {
+        font-family: 'Source Code Pro', monospace;
+        }
+
+    </style>
+  </head>
+
+  <body style= "background: linear-gradient(160deg, rgba(17,31,87,0.95) 0%,rgba(17,31,87,0.7) 34%,rgba(127,22,59,0.63) 100%), url('images/space.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;" >    
+    <header>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <!-- <img src="images/00.svg" width="50" height="50" class="d-inline-block" alt="Crypto00 Logo"> -->
+        Crypto00</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0" >
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Top 12 Cryptos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exchanges.html">Exchanges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wallets.html">Wallets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dapps.html">DApps</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Top 10 Grid -->
+      <div class="container mt-4" >
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button1" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-1" class="cont"></div>
+              <div id="ticker-info-1"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button2" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-2" class="cont"></div>              
+              <div id="ticker-info-2" ></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button3" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-3" class="cont"></div>
+              <div id="ticker-info-3"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button4" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-4" class="cont"></div>
+              <div id="ticker-info-4"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button5" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-5" class="cont"></div>
+              <div id="ticker-info-5"></div>
+            </a>
+          </div>
+<!--           <div class="col-6 col-sm-5 col-lg"></div> -->
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button6" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-6" class="cont"></div>
+              <div id="ticker-info-6"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button7" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-7" class="cont"></div>
+              <div id="ticker-info-7"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button8" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-8" class="cont"></div>
+              <div id="ticker-info-8"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button9" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-9" class="cont"></div>
+              <div id="ticker-info-9"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button10" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-10" class="cont"></div>
+              <div id="ticker-info-10"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button11" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-11" class="cont"></div>
+              <div id="ticker-info-11"></div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3">
+            <a id="button12" role="button" class="btn button-background mb-4">
+              <div id="crypto-image-12" class="cont"></div>
+              <div id="ticker-info-12"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer class="page-footer font-small blue pt-4 mt-4 text-light">
+
+        <!--Footer Links-->
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Crypto00</h5>
+                    <p>Live ticker data on top 12 cryptocurrencies. All rights reserved Crypto00 &copy;. </p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled d-flex flex-row">
+                        <li class="mr-1">
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li class="mr-1">
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li class="mr-1"> 
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li class="mr-1">
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright:
+            <a href="#"> Crypto00 </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+<!--     <script type="text/javascript">
+      var posNeg = document.getElementsByClassName("posNeg");
+      var item1 = posNeg.innerHTML;
+      console.log(posNeg);
+      console.log(item1);
+
+
+      //      setTimeout(function(){var posNegValue = posNeg.item(0); }, 2000);
+
+      //       // setTimeout(function(){ alert("Hello"); }, 3000);
+
+      // setTimeout(function(){console.log(posNegValue); }, 2500);
+
+
+      // if(parseInt(posNeg)<0) {
+      // console.log(posNeg);
+    // }
+    </script> -->
+  </body>
+</html>

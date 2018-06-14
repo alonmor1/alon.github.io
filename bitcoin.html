@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="custom/scss">
+    <title>Crypto 00</title>
+    <style>
+      .box-background {
+        background-color: rgba(237, 243, 255, 0.08); 
+        border-color: transparent;
+        border: 200px;
+        padding: 20px;
+        border-radius: 0;
+        box-shadow: 6px 6px 5px 0px rgba(0, 14, 41, 0.4);
+        margin: .5em;
+      }
+      .row {
+        margin-top: 3em;
+        margin-right: 1em;
+        margin-left: 1em;
+      }
+      .crypto-image {
+        background-color: transparent;
+        margin-top: -20%;
+        margin-bottom: -20%;
+      }
+      .cont {
+        top: 2rem;
+        margin-bottom: .5rem;
+        margin-top: -3rem;
+        position: relative;
+      }
+      @font-face {
+        font-family: atomic-clock;
+        src: url('atomic-clock-radio/atomicclockradio.ttf');
+      }
+
+      * {
+        font-family: atomic-clock;
+      }
+      .white-center {
+        color: white;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body style= "background: linear-gradient(160deg, rgba(17,31,87,0.95) 0%,rgba(17,31,87,0.7) 34%,rgba(127,22,59,0.63) 100%), url('images/space.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;" >    
+    <header>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">Crypto00</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0" >
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Top 12 Cryptos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exchanges.html">Exchanges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wallets.html">Wallets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dapps.html">DApps</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+<!-- Bitcoin Info -->
+      <div class="row">
+        <div class="col box-background">
+          <div id="bitcoin-image-text"><img src='images/bitcoin_logo.png' class='img-fluid crypto-image border-0' alt='bitcoin_logo'"> <p class="white-center"><b>Bitcoin</b></p> <p class="white-center">The first decentralized peer-to-peer payment network in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds, all operating independently of a central bank.</p> <a href="https://bitcoin.org/en/"><b>Learn More</b></a> </div>
+        </div>
+        <div class="col box-background">
+          <div id="current-info"></div>
+<!--           <div class="current-price"></div> <div class="percent-change"></div>
+          <div class="circulating-supply"></div>
+          <div class="market-cap"></div> -->
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer class="page-footer font-small blue pt-4 mt-4 text-light">
+
+        <!--Footer Links-->
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-6">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled d-flex flex-row">
+                        <li class="mr-1">
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li class="mr-1">
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li class="mr-1"> 
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li class="mr-1">
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright:
+            <a href="#"> Crypto00 </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="coins.js"></script>
+  </body>
+</html>
